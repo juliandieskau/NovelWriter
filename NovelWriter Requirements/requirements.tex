@@ -1,0 +1,85 @@
+\documentclass[parskip=full,11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{float}
+
+% Title Page
+\title{Requirements: NovelWriter}
+\subtitle{A Web-App to inspire, plan, write and publish Novels and Books}
+\author{Julian Dieskau}
+\date{September 2023}
+
+% section numbers in margins:
+\renewcommand\sectionlinesformat[4]{\makebox[0pt][r]{#3}#4}
+
+% header & footer
+\usepackage[sfdefault,light]{roboto}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{-}
+\usepackage{hyperref}
+\usepackage{amsmath} % for $\text{}$
+\usepackage[nameinlink]{cleveref}
+\crefname{figure}{figure}{figure}
+\usepackage[section]{placeins}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{outlines}
+\usepackage{verbatimbox}
+\hypersetup{
+	pdftitle={NovelWriter Requirements},
+	%bookmarks=true,
+}
+\usepackage{csquotes}
+\newcommand\urlpart[2]{$\underbrace{\text{\texttt{#1}}}_{\text{#2}}$}
+\usepackage{requirements}
+
+
+\begin{document}
+\maketitle
+\pagebreak
+
+\section{Introduction}
+\input{sections/Introduction}
+
+\section{Overview}
+\input{sections/Overview}
+
+\section{Use Cases}
+\input{sections/UseCases}
+\pagebreak
+
+\section{Functional Requirements}
+\input{sections/FunctionalRequirements}
+
+\section{Non-Functional Requirements}
+\input{sections/NonFunctionalRequirements}
+
+\section{Development Process}
+\input{sections/DevelopmentProcess}
+
+\section{System Architecture}
+\input{sections/SystemArchitecture}
+
+\section{Tests}
+\input{sections/Tests}
+
+\section{User Interface Design}
+\input{sections/UIMockups}
+
+\section{Risks and Mitigation}
+\input{sections/Risks}
+
+\section{Resources}
+\input{sections/Resources}
+
+\section{Timeline}
+\input{sections/Timeline}
+
+\section{Glossary}
+\input{sections/Glossary}
+
+\end{document}
+
+Regularly update and revise the document as the project progresses and requirements evolve.

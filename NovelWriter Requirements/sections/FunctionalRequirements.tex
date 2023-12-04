@@ -1,0 +1,194 @@
+   - List all the features and functionalities the software should have.
+   - Prioritize these features based on their importance.
+\functionality{Text Editor}{fnc:text-editor} 
+\begin{outline}
+    \1 Text Editor for Writing Novels
+    \1 Templates
+      \2 Author, Translator, Editor
+      \2 System Messages
+      \2 Character Info, Status, Attributes
+      \2 Overview Page that can be opened, scrolled through, edited, dragged/copypasted into the Text
+      \2 History, Graphs for how Template was filled in over the Chapters (how stats increase over time) 
+    \1 Saving as Chapters with additional Metadata  
+      \2 Model-Timestamps (named) inside Chapter 
+      \2 Which Notes and Plans this Chapter implements
+\end{outline}
+
+\functionality{Sidebar}{fnc:sidebar}
+\begin{outline}
+    \1 Quick Sidebar with Symbols that link to different Features 
+    \1 Sidebar on mouseover with Name of the Features 
+    \1 Highlighted which Feature is currently on main Screen
+\end{outline}
+
+\functionality{Reader}{fnc:reader}
+\begin{outline}
+    \1 Simple Text Reader to read written Chapters
+    \1 Different Styles of Integrated Reader
+      \2 Webnovel Style
+      \2 Book Style
+      \2 Ebook Style
+\end{outline}
+
+\functionality{Main Page}{fnc:main-page}
+\begin{outline}
+    \1 Overview of which Novels the User has Created
+    \1 Button to create a new Novel/Project
+    \1 Create a Series (Projects) to order multiple Novels together as one Story
+    \1 Overview of all written Chapters of a Novel with Title, Description, colored Tags
+\end{outline}
+
+\functionality{Notes}{fnc:notes}
+\begin{outline}
+    \1 prezi style Mindmap
+      \2 add Notes and Text
+      \2 add Images (inspiration)
+      \2 order and group Elements
+      \2 color-code Elements
+      \2 zooming in and out, moving the screen around (scroll wheel)
+      \2 frame (named) different parts of Ideas as shortcuts to Zoom to
+      \2 List of all frames to click on
+      \2 add lines and arrows
+      \2 change background
+    \1 Create Links to other Features
+    \1 Drawing Editor to draw quick sketches and add them
+    \1 Create/Generate Name-Lists through AI for specific theme, age, nationality or access country most popular names and add them
+
+\end{outline}
+
+\functionality{Character Page}{fnc:character-page}
+\begin{outline}
+    \1 Create a window for characters with character sheet, picture, character Information
+    \1 Set timestamps to document the change of the character-information over time, linked to timeline
+    \1 order characters in family trees and relationship diagrams
+    \1 timeline bar to change the timestamp and change all character information to show the correlating one
+\end{outline}
+
+\functionality{Novel Wiki}{fnc:wiki}
+\begin{outline}
+    \1 Collect Information of Characters, Places, Plants, Animals, Skills, Ranks, Organisations, Sects, etc.
+    \1 Links to other wiki pages inside another
+    \1 Overview Page to Link to all Wiki sites in a tree-like structure
+    \1 Add Relationships to other Elements
+    \1 Overview Pages to Order Information, List them
+\end{outline}
+
+\functionality{Timeline}{fnc:timeline}
+\begin{outline}
+    \1 time arrow to order named events that are happening inside a novel
+      \2 create own timing system (how many days a year has, from which event time is counted (zero))
+      \2 add timestamps in chapters to keep track of time, when something else happened
+      \2 Calculate how many days, years etc ago an event was from the current chapter (or just between different timestamps)
+    \1 Create different timelines for different uses (one for whole chapters, one for timestamps inside chapters, one for an early overview of planned events) and allow overlaying and merging them
+    \1 Color Coding sections or group together different parts as story-arcs
+\end{outline}
+
+\functionality{AI Integration}{fnc:ai}
+\begin{outline}
+    \1 integrated Chat GPT to ask questions about novels, give creative Feedback or improve written paragraphs into a better or just different Style
+      \2 directly as Chat
+      \2 just Buttons for prewritten questions and output the answers
+\end{outline}
+
+\functionality{Map}{fnc:map}
+\begin{outline}
+    \1 Drawing Editor special for Creating Maps
+      \2 Add Elements like Mountains, Forests, Cities, Towns, Villages, Text, Paths, Rivers, Sea and Land
+      \2 Draw Contours of Countries, Continents
+    \1 Create Maps for Cities and Towns, Link them on the big Map
+    \1 Export Maps as Images
+    \1 Auto-generation of Maps algorithmically, maybe with height map and for given instructions from the author
+\end{outline}
+
+\functionality{Element Tags}{fnc:element-tags}
+\begin{outline}
+    \1 Create Colored Tags with Name
+    \1 Add Tags to Elements (Notes, Wiki Pages, inspiration Images, Timeline Events)
+    \1 DONE Tag to track what is already used in written Chapters
+\end{outline}
+
+\functionality{Cover Generator}{fnc:cover}
+\begin{outline}
+    \1 Add self-created Cover (image) to Novel and save it
+    \1 Automatically Generate Cover (image) with AI through tags and save it
+    \1 add Text, Effects and Logos on top
+    \1 create back side cover and add introduction text of the novel
+\end{outline}
+
+\functionality{Novel Overview}{fnc:overview}
+\begin{outline}
+    \1 While inside a novel, first tab
+    \1 Show the Cover of the Novel and access the cover generator
+    \1 create hashtags and a description of the novel, category, general information
+    \1 Generated Stats Page to track what was created and how: Total words, total chapters, words per chapter (distribution/average), time spent for writing, storage used/available
+    \1 create Page that will be public for the novel with description and name
+\end{outline}
+
+\functionality{Search}{fnc:search}
+\begin{outline}
+    \1 Mark words and right-click on them, click field to initiate search
+    \1 search over wiki pages, notes, timeline, character page, map
+    \1 hierarchical importance of search results
+    \1 search for information related to that and show surrounding text for each as a list
+    \1 click on an occurrence in the list to open the page where that information is as a window on top, click again to directly go to the page it is in with it open
+\end{outline}
+
+\functionality{Translation}{fnc:translation}
+\begin{outline}
+    \1 Page with Text Editor and Reader Side by Side
+    \1 Create Translations that are new instances of a Novel, track HEAD of new one with where that is inside the original
+    \1 Auto Translate Chapters through external Translators
+\end{outline}
+
+\functionality{Persistence and Backups}{fnc:persistence}
+\begin{outline}
+    \1 file format(s) and structure of folders for saving of all created data
+    \1 sort data by on which page it was created (how it is displayed in the app)
+    \1 separate File for all components, which get composed together (data should be transferred separately not as one)
+    \1 copy and paste elements in other novels, duplicating whole projects
+    \1 Offline Backup of data possible (download)
+    \1 Store Website Locally (cookies) to work on local backup even without internet
+\end{outline}
+
+\functionality{Export}{fnc:export}
+\begin{outline}
+    \1 export chapters, novels, notes, mindmaps, images
+    \1 export in different formats: PDF, JPEG, PNG, TXT, PUB
+    \1 publish ready format of chapters for web novels
+    \1 publishing of a whole novel in pub format (ebooks, books etc) with cover at the front and back, chapter list etc
+\end{outline}
+-
+\functionality{Revenue}{fnc:revenue}
+Needs \hyperref[fnc:accounts]{Accounts} to function.
+\begin{outline}
+    \1 Use Google Ad Services to add a advertisement bar on the side
+    \1 Patreon Supporter to support development 
+    \1 Introduce Perks (Themes, Discord Invite to give feedback and get information) for supporters
+\end{outline}
+
+\functionality{Themes}{fnc:themes}
+For \hyperref[fnc:revenue]{Revenue} as a perk 
+\begin{outline}
+    \1 Standard Theme applied
+    \1 Different Themes for the appearance of the site
+    \1 Dark Mode, Light Mode, Low/High Contrast Mode
+    \1 Change Theme in Settings
+    \1 Theme Format to Create Own Ones
+\end{outline}
+
+\functionality{Accounts}{fnc:accounts}
+\begin{outline}
+    \1 Use Google Account to log in
+    \1 save all data of a user tied to that account
+    \1 save and transfer data encrypted
+    \1 User Profile (Name, published Novels, Picture, Joined Date, Level)
+    \1 Collaborate on Projects: Invite/remove other people and give them access rights to view/edit different parts of a novel project
+    \1 Managing-Page for a Novel and the Users that are on it, History of who did what and when
+\end{outline}
+
+\functionality{Help}{fnc:help}
+\begin{outline}
+    \1 A Button that opens a help page that offers tips on how to make a better story on that tab on screen
+      \2 For \hyperref[fnc:map]{Maps} show Tutorials (e.g.: \href{https://www.youtube.com/watch?v=XpkVzsoAfog}{"How to Draw Fantasy Maps: Political Borders"} "How to Draw Fantasy Maps: Political Borders"
+      \2 
+\end{outline}
